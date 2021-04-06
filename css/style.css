@@ -258,7 +258,8 @@ body {
     white-space: nowrap; }
   .user-nav__with-tooltip:hover .user-nav__tooltip {
     visibility: visible;
-    opacity: 1; }
+    opacity: 1;
+    z-index: 100; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem;
